@@ -12,6 +12,11 @@ namespace NewletterApp_MVC.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public ActionResult SignUp(string firstName, string lastName, string emailAddress)
+        {
+            return null;
+        }
 
         public ActionResult About()
         {
